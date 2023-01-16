@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   padding: 30px 60px;
-  text-align: center;
 `;
 
 export const Title = styled.h2`

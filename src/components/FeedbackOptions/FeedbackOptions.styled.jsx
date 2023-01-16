@@ -7,13 +7,13 @@ export const Button = styled.button`
   border: 1px solid #db610d;
   border-radius: 4px;
   color: #db610d;
-  font-size: 1rem;
+  font-size: 4vw;
   font-weight: bold;
   text-transform: capitalize;
   cursor: pointer;
 
   :not(:last-child) {
-    margin-right: 16px;
+    margin-right: 12px;
   }
   :hover,
   :focus {
@@ -21,4 +21,7 @@ export const Button = styled.button`
     color: white;
     transition: all 0.2s;
   }
+  @media screen and (min-width: 480px) {
+       font-size: 1rem;
+  
 `;
